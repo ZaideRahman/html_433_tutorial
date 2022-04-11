@@ -71,20 +71,21 @@ th,td{
 	border-radius: 10px;
 	min-width: 42px;
 
-
-
-
 }
+
 th{
-	background-color: blue;
+	background-color: salmon;
 }
+td{
+	background-color: lightskyblue;
+}
+
 td:hover{
-	background-color: pink;
+	background-color: gray;
 }
-tr:nth-child(even){
+/*tr:nth-child(even){
 	background-color: cyan;
 }
 tr:nth-child(odd){
 	background-color: papayawhip;
-}
-
+}*/
