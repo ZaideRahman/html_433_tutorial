@@ -1,0 +1,90 @@
+.font{
+	color: red;
+	background-color: cyan;
+	border: 5px solid; red;
+	font-size: 20px;
+	text-align: center;
+}
+.color_name{
+	color: pink;
+}
+.color_hex{
+	color: #999999;
+}
+.color_rgb{
+	color: rgb(22, 11, 44);
+}
+.color_rgba{
+	color: rgba(44, 20, 30, .40);
+}
+.color_hsl{
+	color: hsl(30, 100%, 50%);
+}
+.color_hsla{
+	color: hsla(30, 100%, 50%, .70);
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}*/
+/*body{
+	background-image: url('image/nature.jpg');
+}*/
+table{
+	width: 100%;
+	/*border: 1px solid black;*/
+	border-collapse: collapse;
+	
+
+}
+th,td{
+	/*border: 1px solid black;*/
+	text-align: center;
+	border-radius: 10px;
+	min-width: 42px;
+
+
+
+
+}
+th{
+	background-color: blue;
+}
+td:hover{
+	background-color: pink;
+}
+tr:nth-child(even){
+	background-color: cyan;
+}
+tr:nth-child(odd){
+	background-color: papayawhip;
+}
+
